@@ -13,6 +13,7 @@
 		B1EE91A42BF1EBC400A66182 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B1EE91A32BF1EBC400A66182 /* Base */; };
 		B1EE91A62BF1EBC500A66182 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1EE91A52BF1EBC500A66182 /* Assets.xcassets */; };
 		B1EE91A92BF1EBC500A66182 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B1EE91A82BF1EBC500A66182 /* Base */; };
+		B1EE91B12BF1F1A800A66182 /* BMICalcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EE91B02BF1F1A800A66182 /* BMICalcViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B1EE91A52BF1EBC500A66182 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1EE91A82BF1EBC500A66182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1EE91AA2BF1EBC500A66182 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1EE91B02BF1F1A800A66182 /* BMICalcViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMICalcViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				B1EE919C2BF1EBC400A66182 /* AppDelegate.swift */,
 				B1EE919E2BF1EBC400A66182 /* SceneDelegate.swift */,
+				B1EE91B02BF1F1A800A66182 /* BMICalcViewController.swift */,
 				B1EE91A02BF1EBC400A66182 /* ViewController.swift */,
 				B1EE91A22BF1EBC400A66182 /* Main.storyboard */,
 				B1EE91A52BF1EBC500A66182 /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1EE91B12BF1F1A800A66182 /* BMICalcViewController.swift in Sources */,
 				B1EE91A12BF1EBC400A66182 /* ViewController.swift in Sources */,
 				B1EE919D2BF1EBC400A66182 /* AppDelegate.swift in Sources */,
 				B1EE919F2BF1EBC400A66182 /* SceneDelegate.swift in Sources */,
