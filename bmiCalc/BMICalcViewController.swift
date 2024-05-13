@@ -30,8 +30,8 @@ class BMICalcViewController: UIViewController {
         classLabel.text = classifyBMI(bmi: bmi)
     }
     @IBAction func clearBtn(_ sender: UIButton) {
-        bmiValueLabel.text = ""
-        classLabel.text = ""
+        bmiValueLabel.text = "BMI Value"
+        classLabel.text = "Classification"
         heightField.text = ""
         weightField.text = ""
     }
