@@ -36,6 +36,10 @@ class BMICalcViewController: UIViewController {
         weightField.text = ""
     }
     
+//    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+//        view.endEditing(true)
+//    }
+    
     func calcBMI(height: Float, weight: Float) -> Float {
        return weight / pow(height, 2)
     }
